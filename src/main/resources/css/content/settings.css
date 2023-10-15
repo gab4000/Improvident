@@ -1,0 +1,8 @@
+.choose-file-btn {
+    -fx-background-radius: 10px;
+    -fx-text-fill: #F5F5F5;
+    -fx-background-color: #656565;
+}
+.choose-file-btn:hover {
+    -fx-background-color: #5A5A5A;
+}

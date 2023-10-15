@@ -1,0 +1,57 @@
+.app-layout {
+    -fx-background: #0A0C0C;
+}
+.side-menu {
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+}
+.bg-image {
+    -fx-background-image: url("/components/bg.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: stretch;
+}
+.sidemenu-nav-btn {
+    -fx-background-radius: 5px;
+    -fx-border-width: 0;
+    -fx-background-color: rgb(100, 100, 100, 0.3);
+    -fx-font-size: 35px;
+}
+.sidemenu-nav-btn {
+    -fx-border-width: 0;
+    -fx-background-color: rgb(100, 100, 100, 0.3);
+    -fx-font-size: 30px;
+    -fx-min-height: 45px;
+    -fx-max-height: 45px;
+    -fx-min-width: 45px;
+    -fx-max-width: 45px;
+}
+
+.icon {
+    -fx-fill: white;
+}
+
+.sidemenu-nav-btn:hover {
+    -fx-background-color: rgb(100, 100, 100, 0.7);
+}
+.sidemenu-nav-btn.active {
+    -fx-background-color: rgb(255, 255, 255, 1);
+}
+
+
+.sidemenu-nav-btn.button {
+    -fx-alignment: center;
+}
+
+.sidemenu-nav-btn:hover {
+    -fx-background-color: rgb(255, 255, 255, 0.5);
+}
+.sidemenu-nav-btn:hover .icon {
+    -fx-fill: black;
+}
+
+.sidemenu-nav-btn.active {
+    -fx-background-color: rgb(255, 255, 255, 1);
+}
+
+.sidemenu-nav-btn.active .icon {
+    -fx-fill: black;
+}
