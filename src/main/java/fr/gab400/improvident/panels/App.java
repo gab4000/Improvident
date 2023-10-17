@@ -1,10 +1,10 @@
-package fr.nicolas.improvident.panels;
+package fr.gab400.improvident.panels;
 
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
-import fr.nicolas.improvident.components.ButtonType;
-import fr.nicolas.improvident.panels.categories.*;
-import fr.nicolas.improvident.panels.panel.Panel;
+import fr.gab400.improvident.panels.categories.*;
+import fr.gab400.improvident.components.ButtonType;
+import fr.gab400.improvident.panels.panel.Panel;
 import javafx.geometry.HPos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;

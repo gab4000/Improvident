@@ -1,4 +1,4 @@
-package fr.nicolas.improvident.panels.panel;
+package fr.gab400.improvident.panels.panel;
 
 import javafx.scene.Node;
 import javafx.scene.layout.GridPane;

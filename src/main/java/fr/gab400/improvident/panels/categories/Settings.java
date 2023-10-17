@@ -1,17 +1,13 @@
-package fr.nicolas.improvident.panels.categories;
+package fr.gab400.improvident.panels.categories;
 
-import fr.nicolas.improvident.panels.PanelManager;
+import fr.gab400.improvident.panels.PanelManager;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
-import javafx.scene.control.DialogPane;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.stage.FileChooser;
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 
 public class Settings extends ContentPanel {
 	

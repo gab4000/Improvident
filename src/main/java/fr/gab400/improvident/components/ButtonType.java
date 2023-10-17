@@ -1,4 +1,4 @@
-package fr.nicolas.improvident.components;
+package fr.gab400.improvident.components;
 
 public enum ButtonType {
 	A,

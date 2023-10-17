@@ -1,7 +1,7 @@
-package fr.nicolas.improvident.panels;
+package fr.gab400.improvident.panels;
 
-import fr.nicolas.improvident.frames.Improvident;
-import fr.nicolas.improvident.panels.panel.IPanel;
+import fr.gab400.improvident.frames.Improvident;
+import fr.gab400.improvident.panels.panel.IPanel;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
@@ -28,7 +28,7 @@ public class PanelManager {
 		this.stage.resizableProperty().set(false);
 		this.stage.setWidth(WIDTH);
 		this.stage.setHeight(HEIGHT);
-		this.stage.initStyle(StageStyle.UNIFIED);
+		this.stage.initStyle(StageStyle.DECORATED);
 		this.stage.centerOnScreen();
 		this.stage.getIcons().add(new Image("icon.png"));
 		

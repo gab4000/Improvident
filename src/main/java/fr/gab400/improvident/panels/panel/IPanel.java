@@ -1,6 +1,6 @@
-package fr.nicolas.improvident.panels.panel;
+package fr.gab400.improvident.panels.panel;
 
-import fr.nicolas.improvident.panels.PanelManager;
+import fr.gab400.improvident.panels.PanelManager;
 import javafx.scene.layout.GridPane;
 
 public interface IPanel {

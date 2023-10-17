@@ -1,7 +1,8 @@
-package fr.nicolas.improvident;
+package fr.gab400.improvident;
 
-import fr.nicolas.improvident.frames.Improvident;
+import fr.gab400.improvident.frames.Improvident;
 import javafx.application.Application;
+import javafx.application.Platform;
 
 import javax.swing.*;
 
@@ -15,5 +16,4 @@ public class Main {
 			JOptionPane.showMessageDialog(null, "Error:\n" + e.getMessage() + " not found", "Error", JOptionPane.ERROR_MESSAGE);
 		}
 	}
-
 }

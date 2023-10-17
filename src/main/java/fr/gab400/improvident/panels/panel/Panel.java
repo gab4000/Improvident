@@ -1,6 +1,6 @@
-package fr.nicolas.improvident.panels.panel;
+package fr.gab400.improvident.panels.panel;
 
-import fr.nicolas.improvident.panels.PanelManager;
+import fr.gab400.improvident.panels.PanelManager;
 import javafx.animation.FadeTransition;
 import javafx.geometry.HPos;
 import javafx.geometry.VPos;
@@ -26,7 +26,7 @@ public abstract class Panel implements IPanel, IMovable, ITakePlace {
 	
 	@Override
 	public void onShow() {
-		FadeTransition transition = new FadeTransition(Duration.seconds(1), this.layout);
+		FadeTransition transition = new FadeTransition(Duration.millis(250), this.layout);
 		transition.setFromValue(0);
 		transition.setToValue(1);
 		transition.setAutoReverse(true);
