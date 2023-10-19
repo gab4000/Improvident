@@ -1,4 +1,4 @@
-package fr.gab400.improvident.panels.categories;
+package fr.gab400.improvident.panels.pages;
 
 import fr.gab400.improvident.panels.panel.Panel;
 import javafx.animation.FadeTransition;
@@ -8,7 +8,7 @@ public abstract class ContentPanel extends Panel {
 	
 	@Override
 	public void onShow() {
-		FadeTransition transition = new FadeTransition(Duration.seconds(1), this.layout);
+		FadeTransition transition = new FadeTransition(Duration.millis(250), this.layout);
 		transition.setFromValue(0);
 		transition.setToValue(1);
 		transition.setAutoReverse(true);

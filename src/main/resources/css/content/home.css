@@ -1,3 +1,7 @@
-chrono-btn-15 {
-
+.chrono-btn {
+    -fx-text-fill: #F5F5F5;
+    -fx-background-color: #656565;
+}
+.chrono-btn:hover {
+    -fx-background-color: #5A5A5A;
 }
