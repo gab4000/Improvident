@@ -1,4 +1,4 @@
-package fr.gab400.improvident.panels.categories;
+package fr.gab400.improvident.panels.pages;
 
 import fr.gab400.improvident.panels.PanelManager;
 import javafx.scene.control.Alert;

@@ -1,6 +1,6 @@
 package fr.gab400.improvident.panels;
 
-import fr.gab400.improvident.frames.Improvident;
+import fr.gab400.improvident.Improvident;
 import fr.gab400.improvident.panels.panel.IPanel;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
@@ -30,7 +30,7 @@ public class PanelManager {
 		this.stage.setHeight(HEIGHT);
 		this.stage.initStyle(StageStyle.DECORATED);
 		this.stage.centerOnScreen();
-		this.stage.getIcons().add(new Image("icon.png"));
+		this.stage.getIcons().add(new Image("assets/images/icon.png"));
 		
 		this.layout = new GridPane();
 		

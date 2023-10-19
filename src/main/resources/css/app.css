@@ -5,7 +5,7 @@
     -fx-background-color: rgba(0, 0, 0, 0.8);
 }
 .bg-image {
-    -fx-background-image: url("/components/bg.png");
+    -fx-background-image: url("/assets/images/bg.png");
     -fx-background-position: center center;
     -fx-background-repeat: stretch;
 }

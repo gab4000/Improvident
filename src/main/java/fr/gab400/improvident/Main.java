@@ -1,8 +1,6 @@
 package fr.gab400.improvident;
 
-import fr.gab400.improvident.frames.Improvident;
 import javafx.application.Application;
-import javafx.application.Platform;
 
 import javax.swing.*;
 

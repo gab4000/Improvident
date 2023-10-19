@@ -1,4 +1,4 @@
-package fr.gab400.improvident.frames;
+package fr.gab400.improvident;
 
 import fr.gab400.improvident.panels.App;
 import fr.gab400.improvident.panels.PanelManager;

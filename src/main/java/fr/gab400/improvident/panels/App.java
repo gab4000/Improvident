@@ -2,7 +2,8 @@ package fr.gab400.improvident.panels;
 
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
-import fr.gab400.improvident.panels.categories.*;
+import fr.gab400.improvident.Improvident;
+import fr.gab400.improvident.panels.pages.*;
 import fr.gab400.improvident.components.ButtonType;
 import fr.gab400.improvident.panels.panel.Panel;
 import javafx.geometry.HPos;
@@ -21,6 +22,7 @@ public class App extends Panel {
 	GridPane navContent = new GridPane();
 	public ButtonType type;
 	private Label title;
+	private int points = 1;
 	
 	Node activeLink;
 	
