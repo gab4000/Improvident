@@ -20,7 +20,7 @@ Want to be part of this fun journey? Join my [Discord server](https://discord.gg
 
 ## 🛠️ Installation
 
-**Requirements**: This program is based on Java Swing.
+**Requirements**: This program is based on JavaFX.
 
 1. Download the repository.
 2. Inside the `/res` directory, you'll find a "Minecraft World Map" folder. This is the SkyBlock map! Move it to your Minecraft maps directory.
